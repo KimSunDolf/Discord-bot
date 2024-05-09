@@ -1,0 +1,20 @@
+{
+  "name": "my-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that forwards messages to webhooks",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "webhook"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
