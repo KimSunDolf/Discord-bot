@@ -10,7 +10,7 @@ const client = new Discord.Client(
     }
 );
 
-const discordBotToken = 'MTIzODA1MTkzMzczOTI4NjU0OA.GSQaJO.vdwL64J8HnOeb08OeuGj45lxAF8xnUjPMnQ8Hg';
+const discordBotToken = 'YOUR_BOT_TOKEN_HERE';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
